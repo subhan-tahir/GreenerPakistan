@@ -1,0 +1,15 @@
+:root{
+  --primaryColor: #7Ed957;
+  --secondaryColor: #448848;
+  --secondaryColorDark: #153117;
+  --blackColor: #000;
+  --whiteColor: #fff;
+  --greyColor: #888888;
+  --lightBackgroundColor: #eff1ed;
+  --darkGreyColor: #163300;
+}
+
+*{
+  font-family: "Rubik", sans-serif;
+ 
+}
