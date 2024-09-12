@@ -6,10 +6,10 @@ const AboutGreener = () => {
     
       <div className="w-full">
         <div
-          className="w-[85%]  flex sm:flex-nowrap flex-wrap justify-center items-center gap-[50px] "
+          className="w-[85%]   border flex  flex-col md:flex-row justify-center items-center gap-[50px] "
           style={{ margin: "10% auto" }}
         >
-          <div className="w-[48%] h-[500px] relative">
+          <div className="md:w-[48%] w-full h-[500px] relative">
             <div className="absolute top-0 z-[3]">
               <img src="src/assets/solarsun.jpg" alt="" className="w-[450px] h-[430px] rounded-[20px]"/>
             </div>
@@ -20,7 +20,7 @@ const AboutGreener = () => {
               <img src="src/assets/about-right-shape.svg" alt="" className=""/>
             </div>
           </div>
-          <div className="w-[52%] flex flex-col gap-[20px]">
+          <div className="md:w-[52%]  w-full flex flex-col gap-[20px]">
             <div>
               <h1 className="text-[--darkGreyColor] text-[37px] font-[700]">
                 About <span className="text-[--primaryColor]"> Greener </span>Pakistan

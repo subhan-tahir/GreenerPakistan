@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <>
       {/*Desktop navbar*/}
-      <div className="w-full absolute top-0">
+      <div className="w-full absolute sm:top-0 top-6">
         {/*top header */}
-        <div className="flex justify-between px-8 m-2 py-2">
+        <div className="sm:flex hidden justify-between px-8 m-2 py-2">
           {/*left section */}
           <div className="flex items-center gap-6 text-white">
             <div className="flex items-center gap-3">
@@ -44,12 +44,12 @@ const Header = () => {
           </div>
         </div>
         {/*bottom header */}
-        <div className="flex justify-between bg-[white] px-4 mx-6 py-4 rounded-[12px]">
+        <div className="flex  justify-between bg-[white] px-4 mx-6 py-4 rounded-[25px]">
           <div className="flex justify-center items-center">
             <img src={logo} alt="" className="w-[130px] object-cover" />
           </div>
           <div>
-            <ul className="flex gap-5 justify-center items-center">
+            <ul className="lg:flex hidden gap-5 justify-center items-center">
 {
   navbarItems.map((value,index)=>{
     return(

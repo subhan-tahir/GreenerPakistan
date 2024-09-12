@@ -8,9 +8,9 @@ const Hero = () => {
         style={{ backgroundImage: `url(${"src/assets/solar.png"})` }}
         className="bg-cover w-full h-screen z-[-4] bg-center" 
       >
-        <div className="absolute left-[8%]  top-[40%] flex flex-col gap-[25px] w-[60%]">
+        <div className="absolute left-[8%]  lg:top-[40%] top-[25%] flex flex-col gap-[25px] sm:w-[60%] w-[90%]">
           <div>
-           <h1 className="text-[60px] font-[700] text-[--whiteColor] shadow" style={{textShadow:'5px 5px 15px black'}}> Paving the way to a <span class="green"> Greener </span>Solution</h1>
+           <h1 className="sm:text-[60px] text-[35px] font-[700] text-[--whiteColor] shadow sm:leading-[70px] leading-10" style={{textShadow:'5px 5px 15px black'}}> Paving the way to a <span class="green"> Greener </span>Solution</h1>
           </div>
 
           <div>

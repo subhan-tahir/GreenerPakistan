@@ -19,8 +19,8 @@ const GeoMessage = () => {
 
 
       <div className="w-full">
-        <div className="flex gap-[40px] justify-center py-[10%] px-[8%]">
-          <div className="flex flex-col gap-[20px] w-[40%]">
+        <div className="flex md:flex-row flex-col-reverse gap-[40px] justify-center py-[10%] px-[8%]">
+          <div className="flex flex-col gap-[20px] md:w-[40%] w-full">
             <div>
               <h1  className="text-[--darkGreyColor] text-[37px] font-[700]">CEO's Message</h1>
             </div>
@@ -47,7 +47,7 @@ const GeoMessage = () => {
               </p>
             </div>
           </div>
-          <div className="w-[30%]">
+          <div className="sm:w-[30%] w-full">
             <img src="src/assets/uncleJee.webp" alt="" className="w-full"/>
           </div>
           <div className="flex-col gap-[50px] justify-center w-[30%]  group">

@@ -1,5 +1,6 @@
 import React from 'react'
-import aboutcardsData from './script'
+import { aboutcardsData } from './script'
+
 
 const AboutCards = () => {
   return (
@@ -9,7 +10,7 @@ const AboutCards = () => {
         <h1>Providing Solar Energy Solutions</h1>
       </div>
       <div className="flex flex-wrap gap-[20px] justify-center items-center">
-        {aboutcardsData.map((value, index) => (
+       {aboutcardsData.map((value, index) => (
           <div
             className="w-[320px] h-[430px] bg-cover bg-center rounded-[25px] cursor-pointer relative overflow-hidden
          transition-transform duration-500 ease-in-out group"
@@ -23,7 +24,7 @@ const AboutCards = () => {
             ></div>
 
             {/* Content */}
-            <div className="flex flex-col gap-[20px] justify-center items-center h-full p-2 z-[100] absolute top-0 left-0 group-hover:!text-[white]">
+            <div className="w-full flex flex-col gap-[20px] justify-center items-center h-full p-2 z-[100] absolute top-0 left-0 group-hover:!text-[white]">
               <div>
                 <img
                   src={value.cardlogo}

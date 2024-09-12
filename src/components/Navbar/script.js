@@ -33,6 +33,7 @@ let navbarItems = [
     },
     {
         item:'Services',
+        path:'/service'
     },
     {
             item:'Energy Load Calculator',
