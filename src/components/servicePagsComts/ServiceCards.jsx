@@ -1,5 +1,6 @@
 import React from 'react'
-import serviceCardsData from './script'
+import { serviceCardsData } from './script'
+
 
 const ServiceCards = () => {
     return (

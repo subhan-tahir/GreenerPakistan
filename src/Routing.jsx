@@ -3,6 +3,9 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Services from './components/pages/Services'
+import EnergyCalculator from './components/Energy/EnergyCalculator'
+import EnergyLoad from './components/pages/EnergyLoad'
+import Products from './components/pages/Products'
 
 const Routing = () => {
   return (
@@ -12,6 +15,8 @@ const Routing = () => {
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/service" element={<Services />}></Route>
+        <Route path="/energycalculator" element={<EnergyLoad />}></Route>
+        <Route path="/products" element={<Products />}></Route>
 
     </Routes>
     

@@ -19,5 +19,17 @@ let serviceCardsData = [
         title:'Solar Maintenance',
         des:'Ongoing maintenance and support to keep your solar panels operating at peak efficiency, maximizing your return on investment.',
     },
-]
-export default serviceCardsData
+];
+let servicePointsData = [
+    {img:'src/assets/leaf.webp',point:'Streamlined documentation for new connections.'},
+    {img:'src/assets/leaf.webp',point:'Installation of LT / HT cables with precision.'},
+    {img:'src/assets/leaf.webp',point:'Thorough testing of LT / HT cables at consumer sites.'},
+    {img:'src/assets/leaf.webp',point:'Comprehensive maintenance of substations, encompassing all switch types.'},
+    {img:'src/assets/leaf.webp',point:'Swapping out PTs and CTs for seamless operation.'},
+];
+export {
+ serviceCardsData,
+ servicePointsData
+}
+
+    

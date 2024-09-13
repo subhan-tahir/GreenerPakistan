@@ -8,6 +8,7 @@ import Counter from '../counterGreener/Counter'
 import Customer from '../aboutPagsComts/Customer'
 import AutoSlider from '../AutoSlider'
 import Footer from '../footer/Footer'
+import OurWork from '../aboutPagsComts/OurWork'
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
     <AboutHero title="About Us"/>
     <AboutGreener />
     <AboutCards />
+    <OurWork />
     <Counter />
     <Customer />
     <AutoSlider />

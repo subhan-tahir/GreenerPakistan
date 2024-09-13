@@ -25,7 +25,28 @@ let aboutcardsData = [
     "I love how environmentally friendly our home is now with solar panels from Greener. The team was friendly, knowledgeable, and made the whole process easy. Definitely recommend them!",
     "The quality of service from Greener exceeded my expectations. I've already recommended them to several friends and family members!",
   ]
+  let ourWorkData = [
+    {
+      img:'src/assets/planningPic.svg',
+      count:1,
+      title:'Project Planning',
+      des:'Develop tailored solar solutions through comprehensive site assessments and detailed system design.',
+    },
+    {
+      img:'src/assets/research.svg',
+      count:2,
+      title:'Research & Analysis',
+      des:'Conduct thorough feasibility studies and cost-benefit analyses to ensure optimal solar system performance.',
+    },
+    {
+      img:'src/assets/install.svg',
+      count:3,
+      title:'Solar Installation',
+      des:'Expertly install and commission solar systems using high-quality components for maximum efficiency and reliability.',
+    },
+  ] 
   
   export {
      aboutcardsData,customerData,
+     ourWorkData
   }

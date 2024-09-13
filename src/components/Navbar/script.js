@@ -37,10 +37,12 @@ let navbarItems = [
     },
     {
             item:'Energy Load Calculator',
+            path:'/energycalculator'
             
     },
     {
         item:'Products',
+        path:'/products',
     },
 ];
 
