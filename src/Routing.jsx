@@ -6,6 +6,7 @@ import Services from './components/pages/Services'
 import EnergyCalculator from './components/Energy/EnergyCalculator'
 import EnergyLoad from './components/pages/EnergyLoad'
 import Products from './components/pages/Products'
+import Contact from './components/pages/Contact'
 
 const Routing = () => {
   return (
@@ -17,6 +18,7 @@ const Routing = () => {
         <Route path="/service" element={<Services />}></Route>
         <Route path="/energycalculator" element={<EnergyLoad />}></Route>
         <Route path="/products" element={<Products />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
 
     </Routes>
     

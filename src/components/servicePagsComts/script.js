@@ -1,3 +1,4 @@
+
 let serviceCardsData = [
     {
         pic:'src/assets/house.webp',
@@ -20,6 +21,25 @@ let serviceCardsData = [
         des:'Ongoing maintenance and support to keep your solar panels operating at peak efficiency, maximizing your return on investment.',
     },
 ];
+
+let serviceCardsData1 = [
+  
+    {
+        pic:'src/assets/solarsun.jpg',
+        title:'SOLAR PANELS',
+        des:'Empower your energy system with our advanced inverters, ensuring seamless conversion and utilization of solar power for your needs',
+    },
+    {
+        pic:'src/assets/inverter.webp',
+        title:'INVERTERS',
+        des:'Professional installation services by our team of certified technicians, ensuring optimal performance and reliability of your solar energy system.',
+    },
+    {
+        pic:'src/assets/battery.webp',
+        title:'BATTERIES',
+        des:'Ongoing maintenance and support to keep your solar panels operating at peak efficiency, maximizing your return on investment.',
+    },
+];
 let servicePointsData = [
     {img:'src/assets/leaf.webp',point:'Streamlined documentation for new connections.'},
     {img:'src/assets/leaf.webp',point:'Installation of LT / HT cables with precision.'},
@@ -29,6 +49,7 @@ let servicePointsData = [
 ];
 export {
  serviceCardsData,
+ serviceCardsData1,
  servicePointsData
 }
 

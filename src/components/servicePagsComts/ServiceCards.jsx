@@ -2,7 +2,7 @@ import React from 'react'
 import { serviceCardsData } from './script'
 
 
-const ServiceCards = () => {
+const ServiceCards = ({cardsData}) => {
     return (
         <>
 
@@ -12,7 +12,7 @@ const ServiceCards = () => {
                 </div>
                 <div className='flex flex-wrap gap-[40px] justify-center items-center'>
                     {
-                        serviceCardsData.map((value,index)=>
+                        cardsData.map((value,index)=>
 
                     <div key={index} className='flex flex-col gap-[20px]   w-[400px]  rounded-[15px] bg-[--lightBackgroundColor] p-[20px] group cursor-pointer '>
                         <div className='overflow-hidden rounded-[12px] '>
@@ -22,7 +22,7 @@ const ServiceCards = () => {
                             <h1 className='text-[20px] font-bold text-center text-[--darkGreyColor]'>{value.title}</h1>
                         </div>
                         <div>
-                            <p className='text-[--darkGreyColor] leading-[32px] text-[16px]'>{value.des}</p>
+                            <p className='text-[--darkGreyColor] leading-[30px] text-[16px]'>{value.des}</p>
                         </div>
                     </div>
                         )

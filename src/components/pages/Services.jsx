@@ -7,6 +7,8 @@ import Empower from '../servicePagsComts/Empower'
 import AboutCards from '../aboutPagsComts/AboutCards'
 import AutoSlider from '../AutoSlider'
 import Footer from '../footer/Footer'
+import { serviceCardsData } from '../servicePagsComts/script'
+
 
 const Services = () => {
   let project1 = {
@@ -52,7 +54,13 @@ const Services = () => {
     <>
       <Header />
       <AboutHero title="Services" />
-      <ServiceCards />
+
+
+
+      <ServiceCards cardsData={serviceCardsData}/>
+
+
+
       <Empower title={project1.title} additionalTitle={project1.subtitle} des={project1.description}
         wiredPic1={project1.wiredPic1} wiredPic2={project1.wiredPic2} list={project1.list} reverse={true}
       />

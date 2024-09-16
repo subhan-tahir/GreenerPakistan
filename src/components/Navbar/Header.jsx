@@ -59,7 +59,8 @@ const Header = () => {
   })
 }
 
-<li><button className="bg-[--primaryColor] text-[black] px-8 py-2 rounded-full">Contact Us</button></li>
+<Link to='/contact'> <li><button className="bg-[--primaryColor] text-[black] px-8 py-2 rounded-full">Contact Us</button>
+</li></Link>
             </ul>
           </div>
         </div>

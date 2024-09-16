@@ -7,16 +7,19 @@ import Packages from '../packages/Packages'
 import Counter from '../counterGreener/Counter'
 import AutoSlider from '../AutoSlider'
 import Footer from '../footer/Footer'
+import { serviceCardsData1 } from '../servicePagsComts/script'
 
 const Products = () => {
   return (
     <>
     <Header />
     <AboutHero title={"Products"}/>
-    <ServiceCards />
+    <ServiceCards cardsData={serviceCardsData1}/>
     <OurWork />
     <Packages />
+    <div className='mb-24'>
     <Counter />
+    </div>
     <AutoSlider />
     <Footer />
     
